@@ -1,0 +1,20 @@
+.etiquette {
+  .contenu {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+
+  .availability {
+    color: #fff;
+    border-radius: 10px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+  }
+
+  .option {
+    display: flex;
+    gap: 20px;
+  }
+}

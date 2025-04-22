@@ -1,0 +1,14 @@
+.containerTableauLine {
+  padding: 20px 0;
+  width: 100%;
+
+  .TableauLine {
+    margin: 0 auto;
+    height: 2px;
+    width: 97%;
+    background-color: black;
+    opacity: 40%;
+  }
+}
+
+

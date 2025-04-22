@@ -7,4 +7,10 @@
   bottom: 50px;
   left: 50%;
   transform: translateX(-50%);
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+}
+
+.containerTableauBox::-webkit-scrollbar {
+  display: none;
 }
