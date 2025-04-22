@@ -1,0 +1,10 @@
+.containerTableauBox {
+  width: 80%;
+  height: 710px;
+  background-color: #fff;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
