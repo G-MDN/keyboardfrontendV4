@@ -1,0 +1,40 @@
+.photoKeys {
+  width: 350px;
+  height: 260px;
+  border: solid 1px black;
+  border-radius: 20px;
+}
+
+.photo-keys-container {
+  display: flex;
+  flex-direction: column-reverse;
+	text-align: center;
+	padding: 1rem;
+}
+
+.custom-file-label {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: white;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	font-weight: bold;
+  width: 200px;
+}
+
+.custom-file-label:hover {
+	background-color: #0056b3;
+}
+
+.hidden-input {
+	display: none;
+}
+
+.photoKeys {
+	margin-top: 1rem;
+	max-width: 300px;
+	border-radius: 12px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
