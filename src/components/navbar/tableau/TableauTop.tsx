@@ -1,4 +1,5 @@
-import { Key, Plus } from "lucide-react";
+import { Key } from "lucide-react";
+import ModalButton from "./ModalButton";
 import TableauLine from "./TableauLine";
 
 import "./TableauTop.css";
@@ -15,12 +16,7 @@ function TableauTop() {
 					placeholder="Tapez votre recherche"
 					className="filterZone"
 				/>
-				<button type="button"
-        className="buttonTableauTop"
-        >
-					<Plus />
-					Ajouter un nouveau trousseau
-				</button>
+				<ModalButton />
 			</div>
 			<div>
 				<TableauLine />

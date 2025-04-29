@@ -1,0 +1,78 @@
+.overlayModal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalNewKey {
+  background: var(--main-color);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 40vw;
+  height: 60vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1001;
+
+  .formModalNewKey {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+
+    input {
+      height: 35px;
+      width: 80%;
+    }
+
+    .validateButton {
+      width: 20%;
+      height: 35px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      background: var(--secondary-color);
+      margin-top: 20px;
+      color: #fff;
+    }
+
+    .containerNewKey {
+      background: #fff;
+      width: 230px;
+      height: 205px;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      .custom-file-upload {
+        display: inline-block;
+        cursor: pointer;
+        font-size: 5rem; 
+        color: black;
+        font-weight: 100;
+        line-height: 1;
+      }
+      
+
+      .photoNewKey {
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+  }
+}
