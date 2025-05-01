@@ -13,9 +13,6 @@ function PhotoKeys() {
 
 	return (
 		<div className="photo-keys-container">
-			<label htmlFor="file-upload" className="custom-file-label">
-				Choisir une image
-			</label>
 			<input
 				id="file-upload"
 				type="file"
@@ -24,6 +21,9 @@ function PhotoKeys() {
 				className="hidden-input"
 			/>
 			{image && <img src={image} alt="preview" className="photoKeys" />}
+			<label htmlFor="file-upload" className="custom-file-label">
+				Choisir une image
+			</label>
 		</div>
 	);
 }

@@ -1,0 +1,12 @@
+.historiqueBox {
+  width: 100%;
+  height: 216px;
+  background-color: var(--main-color);
+  border-radius: 20px;
+  text-align: center;
+
+  h3 {
+    font-weight: normal;
+    padding: 0.5rem;
+  }
+}

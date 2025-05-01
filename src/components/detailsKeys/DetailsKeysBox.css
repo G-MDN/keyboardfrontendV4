@@ -8,4 +8,21 @@
   left: 50%;
   transform: translateX(-50%);
   border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+
+  .topDetailsKeysBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .historiqueDetailsKeysBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }
